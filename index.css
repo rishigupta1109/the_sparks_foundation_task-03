@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+}
+html,body{
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #a0d3f2;
+}
+#logo{
+    height: 85px;
+    width: 85px;
+}
+#Sname{
+    height:45px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(160, 211, 242);;
+    border-radius: 20px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    margin: 50px;
+}
+.img1,.img2{
+    height:350px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.donation{
+    margin:50px;
+    padding:100px;
+}
+#rzp-button1{
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: xx-large;
+    background: rgb(94, 187, 245);
+    color: white;
+    border: 1px solid darkcyan;
+    cursor: pointer;
+}
+#donationbox{
+    padding-bottom: 50px;
+}
+#donationbox::after{
+    content: " ";
+    height: 416px;
+    background-image: url(./images/image3.jpg);
+    background-position: center;
+    width: 893px;
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -1;
+    filter: blur(2px);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    color: white;
+}
+#rzp-button1:hover{
+    background-color: rgb(58, 165, 231);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
